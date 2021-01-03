@@ -98,3 +98,4 @@ ADD caddy.sh /caddy.sh
 EXPOSE 443 80 2015
 ENTRYPOINT ["/caddy.sh"]
 # CMD ["--conf", "/etc/Caddyfile", "--log", "stdout", "--agree=$ACME_AGREE"]
+CMD ["bash", "start.sh"]
